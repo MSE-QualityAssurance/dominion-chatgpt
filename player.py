@@ -1,5 +1,5 @@
 import random
-import card
+from card import TreasureCard, VictoryCard
 
 class Player:
     def __init__(self, name):

@@ -1,3 +1,5 @@
+from player import Player
+
 class Game:
     def __init__(self, players):
         self.players = [Player(name) for name in players]
